@@ -2,9 +2,9 @@ import streamlit as st
 import time
 
 passwords = {
-    "Eddie & Cora": "123",
-    "Ellery & Julia": "456",
-    "Luisa": "789"
+    "Eddie & Cora": "Kugeln",
+    "Ellery & Julia": "Advent",
+    "Luisa": "Schnee"
 }
 
 st.title("🎅🎄 Ho ho ho! 🎄🎅")
@@ -22,7 +22,7 @@ with st.form("my_form"):
 
         if passwords[person] == password:
             st.balloons()
-            st.success(f"🎅: Richtig! 🎈")
+            st.success(f"🎅: Richtig! Merke dir den Zahlencode 🎈")
         else:
             st.snow()
             st.error("🎅: Versuch's nochmal... ⛄")
