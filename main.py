@@ -17,12 +17,12 @@ passcode = {
     "Luisa": 345678
 }
 
-st.title("🎅🎄 Ho ho ho! 🎄🎅")
+st.title("🎅 Ho Ho Ho! 🎅")
 
 with st.form("my_form"):
     
     # Wo wurde unser Begrüßungsvideo für Alma gedreht?
-    video = st.text_input(label="📷", help="Tipp: Der Ort hat >4.5 ⭐ bei über 2000 Bewertungen.")
+    video = st.text_input(label="🌄", help="Tipp: Der Ort hat >4.5 ⭐ bei über 2000 Bewertungen.")
     st.divider()
     
     # Was haben Luisa und ich von der Standesbeamtin geschenkt bekommen?
