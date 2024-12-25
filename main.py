@@ -49,7 +49,7 @@ with st.form("my_form"):
         with st.spinner('Der Weihnachtsmann prüft die Antworten...'):
             time.sleep(5)
 
-        answers = [video, geschenk, intersection, alma, chess]
+        answers = [video, geschenk, intersection, alma, chess, hochzeit]
         correct = 0
         for idx, icon in enumerate(solutions.keys()):
             if solutions[icon] == answers[idx]:
@@ -58,7 +58,7 @@ with st.form("my_form"):
             else:
                 st.error(f"{icon}: Versucht es nochmal")
 
-        if correct == 5:
+        if correct == 6:
             st.warning("🎅🎅🎅 Alles geschafft 🎅🎅🎅")
             st.warning(f"Dein Code ist: **{passcode[person]}**")
             st.snow()
