@@ -12,9 +12,9 @@ solutions = {
 }
 
 passcode = {
-    "Eddie & Cora": 123456,
-    "Ellery & Julia": 234567,
-    "Luisa": 345678
+    "Eddie & Cora": 557616,
+    "Ellery & Julia": 880014,
+    "Luisa": 460235
 }
 
 st.title("🎅 Ho Ho Ho! 🎅")
@@ -47,7 +47,7 @@ with st.form("my_form"):
     chess = (chess1 or "") + (chess2 or "") + (chess3 or "")
     st.divider()
 
-    # Wie lange sind Ellery & Julia verheiratet?
+    # Nimm ein erinnerungswürdiges Weihnachtsfoto auf.
     foto = st.checkbox(label="📷")
     st.divider()
 
